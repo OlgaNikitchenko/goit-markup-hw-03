@@ -16,189 +16,193 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="container">
-      <header>
-        <nav>
+    <header>
+      <div class="container">
+        <nav class="header">
           <a class="logo" href="./index.html">
-            Web<span class="logo-header">Studio</span></a
+            Web<span class="logo__color">Studio</span></a
           >
 
-          <ul class="navigation">
-            <li><a class="main-page-nav" href="./index.html">Студия</a></li>
-            <li><a class="main-page-nav" href="">Портфолио</a></li>
-            <li><a class="main-page-nav" href="">Контакты</a></li>
+          <ul class="menu">
+            <li><a class="menu__link" href="./index.html">Студия</a></li>
+            <li><a class="menu__link" href="">Портфолио</a></li>
+            <li><a class="menu__link" href="">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="list-info">
+        <ul class="contacts__list">
           <li>
-            <a class="contacts-info" href="" lang="en">info@devstudio.com</a>
+            <a class="contacts__link" href="" lang="en">info@devstudio.com</a>
           </li>
           <li>
-            <a class="contacts-info" href="">+38 096 111 11 11</a>
+            <a class="contacts__link" href="">+38 096 111 11 11</a>
           </li>
         </ul>
-      </header>
-      <main>
-        <section>
-          <ul class="button-filter">
+      </div>
+    </header>
+    <main>
+      <section class="section">
+        <div class="container">
+          <ul class="filter__button list">
             <li>
-              <button class="portfolio-filter" type="button">Все</button>
+              <button class="filter__portfolio" type="button">Все</button>
             </li>
             <li>
-              <button class="portfolio-filter" type="button">Веб-сайты</button>
+              <button class="filter__portfolio" type="button">Веб-сайты</button>
             </li>
             <li>
-              <button class="portfolio-filter" type="button">Приложения</button>
+              <button class="filter__portfolio" type="button">
+                Приложения
+              </button>
             </li>
             <li>
-              <button class="portfolio-filter" type="button">Дизайн</button>
+              <button class="filter__portfolio" type="button">Дизайн</button>
             </li>
             <li>
-              <button class="portfolio-filter" type="button">Маркетинг</button>
+              <button class="filter__portfolio" type="button">Маркетинг</button>
             </li>
           </ul>
           <h2 class="hiden">Наши работы</h2>
-          <ul class="list-application">
-            <li>
+          <ul class="filter__list list">
+            <li class="filter__item">
               <article>
                 <img
-                  class="portfolio-card-image"
+                  class="filter__image"
                   src="./images/art1.jpg"
                   alt="ноутбук"
                   width="370"
                 />
 
-                <h3 class="portfolio-application-title">Технокряк</h3>
-                <p class="portfolio-application-detail">Веб-сайт</p>
+                <h3 class="filter__title">Технокряк</h3>
+                <p class="filter__text">Веб-сайт</p>
               </article>
             </li>
 
             <li>
               <article>
                 <img
-                  class="portfolio-card-image"
+                  class="filter__image"
                   src="./images/art2.jpg"
                   alt="баскейтболисты"
                   width="370"
                 />
-                <h3 class="portfolio-application-title">
-                  Постер New Orlean vs Golden Star
-                </h3>
-                <p class="portfolio-application-detail">Веб-Дизайн</p>
+                <h3 class="filter__title">Постер New Orlean vs Golden Star</h3>
+                <p class="filter__text">Веб-Дизайн</p>
               </article>
             </li>
 
             <li>
               <article>
                 <img
-                  class="portfolio-card-image"
+                  class="filter__image"
                   src="./images/art3.jpg"
                   alt="рыба"
                   width="370"
                 />
-                <h3 class="portfolio-application-title">Ресторан Seafood</h3>
-                <p class="portfolio-application-detail">Приложение</p>
+                <h3 class="filter__title">Ресторан Seafood</h3>
+                <p class="filter__text">Приложение</p>
               </article>
             </li>
 
             <li>
               <article>
                 <img
-                  class="portfolio-card-image"
+                  class="filter__image"
                   src="./images/art4.jpg"
                   alt="наушники"
                   width="370"
                 />
-                <h3 class="portfolio-application-title">Проект Prime</h3>
-                <p class="portfolio-application-detail">Маркетинг</p>
+                <h3 class="filter__title">Проект Prime</h3>
+                <p class="filter__text">Маркетинг</p>
               </article>
             </li>
 
             <li>
               <article>
                 <img
-                  class="portfolio-card-image"
+                  class="filter__image"
                   src="./images/art5.jpg"
                   alt="коробки"
                   width="370"
                 />
-                <h3 class="portfolio-application-title">Проект Boxes</h3>
-                <p class="portfolio-application-detail">Приложение</p>
+                <h3 class="filter__title">Проект Boxes</h3>
+                <p class="filter__text">Приложение</p>
               </article>
             </li>
 
             <li>
               <article>
                 <img
-                  class="portfolio-card-image"
+                  class="filter__image"
                   src="./images/art6.jpg"
                   alt="монитор"
                   width="370"
                 />
-                <h3 class="portfolio-application-title">
-                  Inspiration has no Borders
-                </h3>
-                <p class="portfolio-application-detail">Веб-сайт</p>
+                <h3 class="filter__title">Inspiration has no Borders</h3>
+                <p class="filter__text">Веб-сайт</p>
               </article>
             </li>
 
             <li>
               <article>
                 <img
-                  class="portfolio-card-image"
+                  class="filter__image"
                   src="./images/art7.jpg"
                   alt="книга"
                   width="370"
                 />
-                <h3 class="portfolio-application-title">
-                  Издание Limited Edition
-                </h3>
-                <p class="portfolio-application-detail">Дизайн</p>
+                <h3 class="filter__title">Издание Limited Edition</h3>
+                <p class="filter__text">Дизайн</p>
               </article>
             </li>
 
             <li>
               <article>
                 <img
-                  class="portfolio-card-image"
+                  class="filter__image"
                   src="./images/art8.jpg"
                   alt="бирка"
                   width="370"
                 />
-                <h3 class="portfolio-application-title">Проект LAB</h3>
-                <p class="portfolio-application-detail">Маркетинг</p>
+                <h3 class="filter__title">Проект LAB</h3>
+                <p class="filter__text">Маркетинг</p>
               </article>
             </li>
 
             <li>
               <article>
                 <img
-                  class="portfolio-card-image"
+                  class="filter__image"
                   src="./images/art9.jpg"
                   alt="ноутбук"
                   width="370"
                 />
-                <h3 class="portfolio-application-title">Growing Business</h3>
-                <p class="portfolio-application-detail">Приложение</p>
+                <h3 class="filter__title">Growing Business</h3>
+                <p class="filter__text">Приложение</p>
               </article>
             </li>
           </ul>
-        </section>
-      </main>
-    </div>
-    <footer class="color-footer">
-      <a class="logo" href="./index.html"
-        ><span class="logo-footer">Web</span>Studio</a
-      >
-      <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
-      <ul class="list-info">
-        <li>
-          <a class="contacts-info" href="" lang="en">info@devstudio.com</a>
-        </li>
-        <li>
-          <a class="contacts-info" href="">+38 096 111 11 11</a>
-        </li>
-      </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <a class="logo" href="./index.html">
+          <span class="footer__logo">Web</span>Studio</a
+        >
+        <address class="footer__contacts">
+          г. Киев, пр-т Леси Украинки, 26
+        </address>
+        <ul class="footer__list list">
+          <li>
+            <a class="contacts__link link" href="" lang="en"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contacts__link link" href="">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
